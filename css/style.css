@@ -1,0 +1,1715 @@
+*{margin: 0;padding: 0}
+.fp-slidesNav{display: none}
+html{font-size: 62.5%;overflow-x: hidden;font-family:"Microsoft YaHei";}
+body{overflow-x: hidden}
+.date{animation-delay: 1s;}
+.fly{animation-delay: 1s;}
+.ready{animation-delay: 1.5s;}
+.secondLine{animation-delay: 1s;}
+.thirdLine{animation-delay: 1s;}
+.apply{animation-delay: 1.5s;}
+
+.section2 h3,.section4 h3,.section3 h3,.section5 h3{
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+.section2 .col-md-3{
+    margin-top: 2.5%;
+}
+.section2 .col-md-4 img{
+    width: 100%;
+    height: 100%;
+}
+.section2 .col-md-3 {
+    text-align: center;
+}
+.section2 .col-md-3 img{
+    display: block;
+    margin: 0 auto 0;
+}
+.section2 .col-md-3 p{
+    margin-top: 3%;
+    color: white;
+    font-weight: 600;
+}
+.section2 .col-md-9{
+    margin-top: 3%;
+    /*overflow: auto;*/
+    color: white;
+    font-weight: 100;
+    line-height: 2rem;
+
+}
+.section2 .col-md-9 article{
+    /*height: 35rem;*/
+    /*overflow: auto;*/
+}
+
+.section2 .col-md-9 p{
+    text-indent:2em;
+
+}
+.slideCon p{
+    /*height:20rem;*/
+    /*overflow-y: auto;*/
+}
+.javaCon{
+    background-color: #353C46;
+    border-radius: 30px;
+}
+.javaCon .slide .javaPic{
+    z-index:99999;
+    margin-left: 7%;
+}
+
+.pic{
+    float: left;
+}
+.section4 h4{
+    color: white;
+}
+.section4 span{
+    color: white;
+}
+.section4 p{
+    color: white;
+}
+.section3 .col-md-9 .slide img{
+    display: block;
+    margin: 0 auto 0;
+}
+.mask{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.45;
+    fill-opacity: 0.1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:2 ;
+}
+.apply{
+    color: white;
+    opacity: 0;
+    text-align: center;
+    /*margin-top: 5%;*/
+}
+.section6 .col-xs-11 .firstLine{
+    text-align: center;
+    text-shadow: 2px 3px 2px #000;
+
+    background:-webkit-linear-gradient(left,#f00,#ff0 25%,#0f0 40%,#aff 55%,#a0f 70%,#fee);
+    -webkit-background-clip:text;/*只有webkit内核支持text的剪切模式*/
+    /*color:transparent;*/
+}
+.section6 .col-xs-11 .secondLine{
+    text-shadow: 2px 3px 2px #000;
+
+    background:-webkit-linear-gradient(left,#fa0,#ff0 30%,#0f0 40%,#0ff 55%,#00f 70%,#f00);
+    -webkit-background-clip:text;/*只有webkit内核支持text的剪切模式*/
+    /*color:transparent;*/
+}
+.section6 .col-xs-11 .thirdLine{
+    text-shadow: 2px 3px 2px #000;
+
+}
+@media (max-width: 320px) {
+    .section2{
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section2 h3{
+        font-size:1.5rem ;
+        font-weight: 600;
+    }
+    .section2 .col-md-3 p{
+        font-size: 1.1rem;
+    }
+    .section2 .col-md-9 p{
+        font-size: 1.3rem;
+
+    }
+    .section2 .col-xs-10{
+        margin-left: 8.3335%;
+
+    }
+
+    .javaCon{
+        height: 40rem;
+    }
+    .javaCon .slideCon{
+        margin-right: 0.7rem;
+    }
+    .javaCon .slide .javaPic{
+        z-index:99999;
+        margin-left: 57%;
+    }
+    .section2 .col-md-9 .slideCon h2{
+        font-size: 1.6rem;
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+    .section2 .col-md-9 .pic{
+
+        width: 13%;
+        height: 18%;
+        /*float: left;*/
+        margin-left: 5%;
+    }
+    .section2 .col-md-9 .slideCon p{
+        height: 35rem;
+        /*margin-top: -2rem;*/
+        width: 15rem;
+        line-height: 2.5rem;
+        margin: 0 auto 0;
+    }
+    .section4 h3{
+        font-weight: 600;
+        font-size: 2.5rem;
+    }
+    .section4 .col-xs-10{
+        margin-left: 8.3335%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    /*对优秀成员进行样式修饰*/
+    .section4{
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section4 h3{
+        color: white;
+        font-size: 3rem;
+    }
+    .section4 .col-xs-11{
+        margin-left: 4.16665%;
+        margin-top: 10%;
+    }
+    .section4 .peoPic{
+        margin-top: 8%;
+    }
+    .section4 .peoPic img{
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin: 0 auto 0;
+    }
+    .section4 .people{
+        width: 60%;
+        /*float: left;*/
+        /*margin-left: 3.3333%;*/
+        margin: 0 auto 0;
+        text-align: center;
+        height: 15.0rem;;
+    }
+    .section4 .peoPic{
+        float: left;
+        width: 40%;
+    }
+    .section4 .peoInt{
+        float: left;
+        width: 45%;
+        margin-left: 15%;
+    }
+    .section4 h4{
+        font-size: 2.0rem;
+        font-weight: 700;
+        margin-top: 23%;
+    }
+    .section4 span{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    .section4 p{
+        font-size:1.4rem ;
+        margin-top: 10%;
+    }
+    .fp-controlArrow{
+        display: none;
+    }
+
+    /*对优秀作品进行样式修饰*/
+    .section3{
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section3 h3{
+        font-size:3rem ;
+        clear: both;
+    }
+    .section3 .col-xs-11{
+        margin-left: 4.16665%;
+        margin-top: 20%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section3 .col-md-9 .slide img{
+        width: 100%;
+        height: 100%;
+    }
+    .moreBtn{
+        height: 3rem;
+    }
+    .moreBtn button{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border: 1px solid white;
+    }
+    .col-xs-6{
+        margin-left: 25%;
+        margin-top: 25%;
+    }
+    .ewm{
+        width: 85%;
+        height: 50%;
+        margin: 15% auto 0;
+    }
+    .ewmPic{
+        width: 100%;
+        height: 100%;
+    }
+    .section3 .col-xs-10{
+        background-color: white;
+        position: fixed;
+        top: 30%;
+        left: 8.3335%;
+        z-index: 3;
+        height: 40%;
+    }
+    .section3 .closePic{
+        display: inline;
+        margin-left: 85%;
+    }
+    .more{
+        display: none;
+    }
+    /*对我们进行样式修饰*/
+    .section5{
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section5 h3{
+        font-size:3rem ;
+    }
+    .section5 .col-xs-11{
+        margin-left: 4.16665%;
+        margin-top: 15%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section5 .col-xs-11 .slide img{
+        width: 100%;
+        display: block;
+        margin: 0 auto 0;
+    }
+    .section6 .col-xs-11{
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+        margin-left: 4.16665%;
+        height: 100%;
+    }
+    .section6 .col-xs-11 p{
+        color: white;
+    }
+    .section6 .col-xs-11 .firstLine{
+        font-size:2.5rem;
+        margin-top: 22%;
+        opacity: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .section6 .col-xs-11 .secondLine{
+        font-size:2.5rem;
+        margin-top: 25%;
+        opacity: 0;
+    }
+    .section6 .col-xs-11 .thirdLine{
+        font-size:3rem;
+        text-align: center;
+        opacity: 0;
+        margin: 35% auto;
+    }
+
+    .apply{
+        color: white;
+        opacity: 0;
+        text-align: center;
+        margin-top:25%;
+    }
+    .joinBtn{
+        width: 55%;
+        height: 10%;
+        margin: 0 auto 0;
+        margin-top: 25%;
+    }
+    .joinBtn button{
+        width: 100%;
+        height: 50%;
+        background-color: white;
+        border-radius: 10px;
+
+    }
+    .section1 .col-xs-11{
+        background: url("../images/bg.png");
+        margin-left: 4.16665%;
+        height: 100%;
+        background-size: 100% 100%;
+        text-align: center;
+    }
+    .section1 .logo{
+        /*height: 8%;*/
+        width: 100%;
+        color: white;
+        font-size: 2.6rem;
+        margin-top: 35%;
+        /*opacity: 0;*/
+        /*margin-left: -100%;*/
+    }
+    .section1 .date{
+        /*height: 12%;*/
+        width: 100%;
+        color:white;
+        font-size: 3rem;
+        /*margin-left: 5%*/
+        margin-top: 25%;
+        /*opacity: 0;*/
+
+    }
+    .section1 .fly{
+        color: white;
+        font-size: 2rem;
+        width:60%;
+        margin: 0 auto 0;
+        /*height: 6%;*/
+        margin-top: 10%;
+        /*opacity: 0;*/
+        /*margin-left: -100%;*/
+
+    }
+    .section1 .ready{
+        color: white;
+        font-size: 2.8rem;
+        /*opacity: 0;*/
+        width: 100%;
+        margin: 10% auto 0;
+    }
+    .advantage{
+        margin-left: 23%;
+        font-size: 1.5rem;
+    }
+    .advantage li{
+        margin-top: 10%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .section2{
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .javaCon .slideCon{
+        margin-left: 4rem;
+        margin-right: 3rem;
+    }
+    .section2 h3{
+        font-size:1.8rem ;
+        font-weight: 600;
+    }
+    .section2 .col-xs-10{
+        margin-left: 8.3335%;
+    }
+    .pic{
+        width: 20%;
+        height: 20%;
+        float: left;
+        margin-left: 5%;
+    }
+    .javaCon{
+        height: 40rem;
+    }
+    .slideCon p{
+        line-height: 3rem;
+    }
+    .section2 .col-md-9 .slideCon h2{
+        font-size: 1.7rem;
+        margin-left: 40%;
+        margin-top: 2rem;
+    }
+    /*对优秀成员进行样式修饰*/
+    .section4{
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section4 h3{
+        color: white;
+        font-size: 3rem;
+    }
+    .section4 .col-xs-11{
+        margin-left: 4.16665%;
+        margin-top: 3%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section4 .peoPic{
+       margin-top: 8.5%;
+    }
+    .section4 .peoPic img{
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin: 0 auto 0;
+    }
+    .section4 .people{
+        width: 80%;
+        /*float: left;*/
+        /*margin-left: 3.3333%;*/
+        margin: 0 auto 0;
+        text-align: center;
+        height: 15.5rem;;
+    }
+    .section4 .peoPic{
+        float: left;
+        width: 45%;
+    }
+    .section4 .peoInt{
+        float: left;
+        width: 40%;
+        margin-left: 15%;
+    }
+    .section4 h4{
+        font-size: 2.0rem;
+        font-weight: 700;
+        margin-top: 23%;
+    }
+    .section4 span{
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+    .section4 p{
+        font-size:1.6rem ;
+        margin-top: 10%;
+    }
+    .fp-controlArrow{
+        display: none;
+    }
+    /*对优秀作品进行样式修饰*/
+    .section3{
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section3 h3{
+        font-size:3rem ;
+        clear: both;
+    }
+    .section3 .col-xs-11{
+        margin-left: 4.16665%;
+        margin-top: 20%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section3 .col-md-9 .slide img{
+        width: 100%;
+        height: 100%;
+    }
+    .moreBtn{
+        height: 3rem;
+    }
+    .moreBtn button{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border: 1px solid white;
+    }
+    .col-xs-6{
+        margin-left: 25%;
+        margin-top: 25%;
+    }
+    .section3 .col-xs-10{
+        background-color: white;
+        position: fixed;
+        top: 30%;
+        left: 8.3335%;
+        z-index: 3;
+        height: 40%;
+    }
+    .section3 .closePic{
+        display: inline;
+        margin-left: 90%;
+    }
+    .more{
+        display: none;
+    }
+    /*对我们进行样式修饰*/
+    .section5{
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section5 h3{
+        font-size:3rem ;
+    }
+    .section5 .col-xs-11{
+        margin-left: 4.16665%;
+        margin-top: 15%;
+    }
+    .section5 .col-xs-11 .slide img{
+        width: 100%;
+        display: block;
+        margin: 10% auto;
+    }
+    .section6 .col-xs-11{
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+        margin-left: 4.16665%;
+        height: 100%;
+    }
+    .section6 .col-xs-11 p{
+        color: white;
+    }
+    .section6 .col-xs-11 .firstLine{
+        font-size:2.8rem;
+        margin-top: 10%;
+        opacity: 0;
+
+    }
+    .section6 .col-xs-11 .secondLine{
+        font-size:2.8rem;
+        margin-top: 25%;
+        opacity: 0;
+    }
+    .section6 .col-xs-11 .thirdLine{
+        font-size:3rem;
+        opacity: 0;
+        margin: 40% auto 0;
+        text-align: center;
+    }
+    .ewm{
+        width: 70%;
+        height: 50%;
+        margin: 10% auto 0;
+    }
+    .ewmPic{
+        width: 100%;
+        height: 100%;
+    }
+    .apply{
+
+        margin-top:15%;
+    }
+    .joinBtn{
+        width: 35%;
+        height: 10%;
+        margin: 0 auto 0;
+        margin-top: 25%;
+    }
+    .joinBtn button{
+        width: 100%;
+        height: 60%;
+        background-color: white;
+        border-radius: 10px;
+
+    }
+    .section1 .col-xs-11{
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+        margin-left: 4.16665%;
+        height: 100%;
+        text-align: center;
+    }
+    .section1 .logo{
+        width: 100%;
+        color: white;
+        font-size: 3rem;
+        margin-top: 25%;
+        /*opacity: 0;*/
+    }
+    .section1 .date{
+        /*height: 12%;*/
+        width: 100%;
+        color:white;
+        font-size: 3rem;
+        /*margin-left: 5%*/
+        margin-top: 15%;
+        /*opacity: 0;*/
+
+    }
+    .section1 .fly{
+        color: white;
+        font-size: 2rem;
+        width:60%;
+        margin: 15% auto 0;
+        /*height: 6%;*/
+        /*margin-top: 10%;*/
+        /*opacity: 0;*/
+        /*margin-left: -100%;*/
+
+    }
+    .section1 .ready{
+        color: white;
+        font-size: 3rem;
+        /*opacity: 0;*/
+        width: 55%;
+        margin: 15% auto 0;
+    }
+    .advantage{
+        margin-left: 15%;
+        font-size: 1.5rem;
+    }
+    .advantage li{
+        margin-top: 10%;
+    }
+}
+@media (min-width: 480px) and (max-width: 620px) {
+    .section2{
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section2 .col-xs-10{
+        margin-left: 8.3335%;
+    }
+    .section2 h3{
+        font-size:1.8rem ;
+        font-weight: 600;
+        color: white;
+    }
+    .pic{
+        width: 20%;
+        height: 20%;
+        float: left;
+        margin-left: 5%;
+    }
+    .javaCon{
+        height: 38rem;
+    }
+    .javaCon .slideCon{
+        margin-left: 3.5rem;
+        margin-right: 3rem;
+    }
+    .slideCon p{
+        line-height: 2.5rem;
+        margin-left:1rem;
+        margin-right: 5rem;
+    }
+    .section2 .col-md-9 .slideCon h2{
+        font-size: 1.7rem;
+        margin-left: 40%;
+        margin-top: 2rem;
+    }
+    .section2 .col-xs-10{
+        margin-left: 8.3335%;
+    }
+    /*对优秀成员进行样式修饰*/
+    .section4{
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section4 h3{
+        color: white;
+        font-size: 3rem;
+    }
+    .section4 .col-xs-11{
+        margin-left: 4.16665%;
+        margin-top: 10%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section4 .peoPic{
+        /*width: 18%;*/
+        /*height: 18%;*/
+        /*margin-left: 100px;*/
+    }
+    .section4 .peoPic img{
+        width: 75%;
+        height: 75%;
+        display: block;
+        margin: 0 auto 0;
+    }
+    .section4 .people{
+        width: 30%;
+        float: left;
+        margin-left: 3.3333%;
+        text-align: center;
+    }
+    .section4 h4{
+        font-size: 2.3rem;
+        font-weight: 600;
+        margin-top: 30%;
+    }
+    .section4 span{
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+    .section4 p{
+        font-size:1.6rem ;
+        margin-top: 15%;
+    }
+    /*对优秀作品进行样式修饰*/
+    .section3{
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section3 h3{
+        font-size:3rem ;
+        font-weight: 600;
+        clear: both;
+    }
+    .section3 .col-xs-11{
+        margin-left: 4.16665%;
+        margin-top: 1%;
+    }
+    .section3 .col-md-9 .slide img{
+        width: 85%;
+        height: 90%;
+        margin-top: 10rem;
+    }
+    .moreBtn{
+        height: 3rem;
+    }
+    .moreBtn button{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border: 1px solid white;
+    }
+    .col-xs-6{
+        margin-left: 25%;
+        margin-top: 13%;
+    }
+    .section3 .col-xs-10{
+        background-color: white;
+        position: fixed;
+        top: 30%;
+        left: 8.3335%;
+        z-index: 3;
+        height: 40%;
+    }
+    .section3 .closePic{
+        display: inline;
+        margin-left: 93%;
+    }
+    .more{
+        display: none;
+    }
+    /*对我们进行样式修饰*/
+    .section5{
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section5 h3{
+        font-size:3rem ;
+    }
+    .section5 .col-xs-11{
+        margin-left: 4.16665%;
+        margin-top: 5%;
+    }
+    .section5 .col-xs-11 .slide img{
+        width: 100%;
+        display: block;
+        margin: 0 auto 0;
+    }
+    .section6 .col-xs-11{
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+        margin-left: 4.16665%;
+        height: 100%;
+    }
+    .section6 .col-xs-11 p{
+        color: white;
+    }
+    .section6 .col-xs-11 .firstLine{
+        font-size:3.0rem;
+        margin-top: 12%;
+        opacity: 0;
+        text-align: center;
+    }
+    .section6 .col-xs-11 .secondLine{
+        font-size:3.0rem;
+        margin-top: 25%;
+        opacity: 0;
+    }
+    .section6 .col-xs-11 .thirdLine{
+        font-size:3.5rem;
+        text-align: center;
+        opacity: 0;
+        margin-top: 25%;
+        text-align: center;
+    }
+    .ewm{
+        width: 50%;
+        height: 50%;
+        margin: 5% auto 0;
+    }
+    .ewmPic{
+        width: 100%;
+        height: 100%;
+    }
+    .apply{
+
+        margin-top: 15%;
+    }
+    .joinBtn{
+        width: 35%;
+        height: 10%;
+        margin: 0 auto 0;
+    }
+    .joinBtn button{
+        width: 100%;
+        height: 60%;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 65%;
+    }
+    .section1 .col-xs-11{
+        background: url("../images/bg.png");
+        margin-left: 4.16665%;
+        height: 100%;
+        background-size: 100% 100%;
+        text-align: center;
+    }
+    .section1 .logo{
+        width: 100%;
+        color: white;
+        font-size: 3.5rem;
+        margin-top: 15%;
+        /*opacity: 0;*/
+        height: 10rem;
+    }
+    .section1 .date{
+        /*height: 12%;*/
+        width: 100%;
+        color:white;
+        font-size: 4rem;
+        /*margin-left: 5%*/
+        /*margin-top: 5%;*/
+        /*opacity: 0;*/
+
+    }
+    .section1 .fly{
+        color: white;
+        font-size: 3rem;
+        width:60%;
+        margin: 15% auto 0;
+        /*height: 6%;*/
+        /*margin-top: 10%;*/
+        /*opacity: 0;*/
+        /*margin-left: -100%;*/
+
+    }
+    .section1 .ready{
+        color: white;
+        font-size: 3rem;
+        /*opacity: 0;*/
+        width: 55%;
+        margin: 10% auto 0;
+    }
+    .advantage{
+        margin-left: 5%;
+        font-size: 1.5rem;
+        /*margin-top: 2%;*/
+    }
+    .advantage li{
+        margin-top: 10%;
+        float: left;
+        margin-left: 5%;
+        width: 45%;
+    }
+
+}
+@media (min-width: 620px) and (max-width: 768px) {
+    .section2{
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section2 h3{
+        font-size:1.8rem ;
+        font-weight: 600;
+    }
+    .javaCon{
+        height: 35rem;
+    }
+    .javaCon .slideCon{
+
+    }
+    .section2 .col-xs-10{
+        margin-left: 8.3335%;
+    }
+    .slideCon p{
+        line-height: 3rem;
+        margin-left:5rem;
+        margin-right: 5rem;
+    }
+    .section2 .col-md-9 .slideCon h2{
+        font-size: 1.7rem;
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+    .section2 .col-xs-10{
+        margin-left: 12.5%;
+    }
+    .pic{
+        width: 19%;
+        height: 19%;
+        float: left;
+        margin-left: 5%;
+    }
+    /*对优秀成员进行样式修饰*/
+    .section4{
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section4 h3{
+        color: white;
+        font-size: 3rem;
+    }
+    .section4 .col-xs-11{
+        margin-left: 4.16665%;
+        margin-top: 10%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section4 .peoPic{
+        /*width: 18%;*/
+        /*height: 18%;*/
+        /*margin-left: 100px;*/
+    }
+    .section4 .peoPic img{
+        width: 68%;
+        height: 68%;
+        display: block;
+        margin: 0 auto 0;
+    }
+    .section4 .people{
+        width: 30%;
+        float: left;
+        margin-left: 3.3333%;
+        text-align: center;
+    }
+    .section4 h4{
+        font-size: 2.3rem;
+        font-weight: 700;
+        margin-top: 15%;
+    }
+    .section4 span{
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+    .section4 p{
+        font-size:1.6rem ;
+        margin-top: 5%;
+    }
+    /*对优秀作品进行样式修饰*/
+    .section3{
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section3 h3{
+        font-size:3rem ;
+        font-weight: 600;
+        clear: both;
+    }
+    .section3 .col-xs-11{
+        margin-left: 4.16665%;
+        margin-top: 2%;
+    }
+    .more{
+        text-align: right;
+        cursor: pointer;
+    }
+    .more span:hover{
+        color: red;
+    }
+    .section3 .col-md-9 .slide img{
+        width: 100%;
+        height: 100%;
+    }
+    .moreBtn{
+        display: none;
+    }
+    .col-xs-6{
+        margin-left: 25%;
+        margin-top: 25%;
+    }
+    .section3 .col-xs-10{
+        background-color: white;
+        position: fixed;
+        top: 30%;
+        left: 8.3335%;
+        z-index: 3;
+        height: 40%;
+    }
+    .section3 .closePic{
+        display: inline;
+        margin-left: 94%;
+    }
+    /*对我们进行样式修饰*/
+    .section5{
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section5 h3{
+        font-size:3rem ;
+    }
+    .section5 .col-xs-11{
+        margin-left: 4.16665%;
+        margin-top: 5%;
+    }
+    .section5 .col-md-9 .slide img{
+        width: 90%;
+        display: block;
+        margin: 0 auto 0;
+    }
+    .section6 .col-xs-11{
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+        margin-left: 4.16665%;
+        height: 100%;
+    }
+    .section6 .col-xs-11 p{
+        color: white;
+    }
+    .section6 .col-xs-11 .firstLine{
+        font-size:3.5rem;
+        margin-top: 7%;
+        opacity: 0;
+        text-align: center;
+    }
+    .section6 .col-xs-11 .secondLine{
+        font-size:3.5rem;
+        margin-top: 20%;
+        opacity: 0;
+
+    }
+    .section6 .col-xs-11 .thirdLine{
+        font-size:4.0rem;
+        text-align: center;
+        opacity: 0;
+        margin: 30% auto;
+
+    }
+    .ewm{
+        width: 40%;
+        height: 50%;
+        margin: 5% auto 0;
+    }
+    .ewmPic{
+        width: 100%;
+        height: 100%;
+    }
+    .apply{
+        font-size: 1.8rem;
+        margin-top: 15%;
+    }
+    .joinBtn{
+        width: 30%;
+        height: 10%;
+        margin: 0 auto 0;
+    }
+    .joinBtn button{
+        width: 100%;
+        height: 60%;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 50%;
+    }
+    .section1 .col-xs-11{
+        background: url("../images/bg.png");
+        margin-left: 4.16665%;
+        height: 100%;
+        background-size: 100% 100%;
+        text-align: center;
+    }
+    .section1 .logo{
+        width: 100%;
+        color: white;
+        font-size: 4rem;
+        margin-top: 15%;
+        /*opacity: 0;*/
+        height: 10rem;
+    }
+    .section1 .date{
+        /*height: 12%;*/
+        width: 100%;
+        color:white;
+        font-size: 4.5rem;
+        /*margin-left: 5%*/
+        /*margin-top: 5%;*/
+        /*opacity: 0;*/
+
+    }
+    .section1 .fly{
+        color: white;
+        font-size: 3rem;
+        width:60%;
+        margin: 10% auto 0;
+        /*height: 6%;*/
+        /*margin-top: 10%;*/
+        /*opacity: 0;*/
+        /*margin-left: -100%;*/
+
+    }
+    .section1 .ready{
+        color: white;
+        font-size: 3.5rem;
+        /*opacity: 0;*/
+        width: 20%;
+        margin: 10% auto 0;
+        width: 55%;
+    }
+    .advantage{
+        margin-left: 7%;
+        font-size: 1.8rem;
+        /*margin-top: 2%;*/
+    }
+    .advantage li{
+        margin-top: 10%;
+        float: left;
+        margin-left: 5%;
+        width: 45%;
+    }
+
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    .section2{
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section2 h3{
+        font-size:1.8rem ;
+        font-weight: 600;
+        color: white;
+    }
+    .javaCon{
+        height: 35rem;
+    }
+    .slideCon p{
+        line-height: 3rem;
+        margin-left:5rem;
+        margin-right: 5rem;
+    }
+    .section2 .col-md-9 .slideCon h2{
+        font-size: 1.7rem;
+        margin-left: 40%;
+        margin-top: 2rem;
+    }
+    .section2 .col-md-9{
+        margin-left: 12.5%;
+    }
+    .pic{
+        width: 19%;
+        height: 19%;
+        float: left;
+        margin-left: 5%;
+    }
+    .col-md-9 article p{
+        line-height: 3rem;
+    }
+    /*对优秀成员进行样式修饰*/
+    .section4{
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section4 h3{
+        color: white;
+        font-size: 3rem;
+    }
+    .section4 .col-md-9{
+        margin-left: 12.5%;
+        margin-top: 10%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section4 .peoPic{
+        /*width: 18%;*/
+        /*height: 18%;*/
+        /*margin-left: 100px;*/
+    }
+    .section4 .peoPic img{
+        width: 45%;
+        height: 45%;
+        display: block;
+        margin: 0 auto 0;
+    }
+    .section4 .people{
+        width: 30%;
+        float: left;
+        margin-left: 3.3333%;
+        text-align: center;
+    }
+    .section4 h4{
+        font-size: 2.3rem;
+        font-weight: 700;
+        margin-top: 10%;
+    }
+    .section4 span{
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+    .section4 p{
+        font-size:1.6rem ;
+        margin-top: 5%;
+    }
+    /*对优秀作品进行样式修饰*/
+    .section3{
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section3 h3{
+        font-size:3rem ;
+        font-weight: 600;
+        clear: both;
+    }
+    .section3 .col-md-9{
+        margin-left: 12.5%;
+        margin-top: 3%;
+    }
+    .section3 .col-md-9 .slide img{
+        width: 100%;
+        height: 100%;
+    }
+    .moreBtn{
+        display: none;
+    }
+
+
+    .section3 .moreCon{
+        background-color: white;
+        position: fixed;
+        top: 30%;
+        z-index: 3;
+        height: 40%;
+    }
+    .section3 .closePic{
+        display: inline;
+        margin-left: 95%;
+        cursor: pointer;
+    }
+    .more{
+        text-align: right;
+        cursor: pointer;
+        color: white;
+    }
+    .more span:hover{
+        color: red;
+    }
+    /*对我们进行样式修饰*/
+    .section5{
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section5 h3{
+        font-size:3rem ;
+    }
+    .section5 .col-md-9{
+        margin-left: 12.5%;
+        margin-top: 5%;
+    }
+    .section5 .col-md-9 .slide img{
+        width: 90%;
+        display: block;
+        margin: 0 auto 0;
+    }
+    .section6 .col-md-9{
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+        margin-left: 12.5%;
+        height: 100%;
+    }
+    .section6 .col-md-9 p{
+        color: white;
+    }
+    .section6 .col-md-9 .firstLine{
+        font-size:4rem;
+        margin-top: 5%;
+        opacity: 0;
+        text-align: center;
+
+    }
+    .section6 .col-md-9 .secondLine{
+        font-size:4rem;
+        margin-top: 20%;
+        opacity: 0;
+
+    }
+    .ewm{
+        width: 40%;
+        height: 50%;
+        margin: 5% auto 0;
+    }
+    .ewmPic{
+        width: 100%;
+        height: 100%;
+    }
+    .apply{
+        font-size: 1.6rem;
+        margin-top: 15%;
+    }
+    .section6 .col-md-9 .thirdLine{
+        font-size:4.5rem;
+        margin-top: 20%;
+        text-align: center;
+        opacity: 0;
+    }
+    .joinBtn{
+        width: 35%;
+        height: 10%;
+        margin: 0 auto 0;
+    }
+    .joinBtn button{
+        width: 100%;
+        height: 60%;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 25%;
+    }
+    .section1 .col-sm-9{
+        background: url("../images/bg.png");
+        margin-left: 12.5%;
+        height: 100%;
+        background-size: 100% 100%;
+        text-align: center;
+    }
+    .section1 .logo{
+        width: 100%;
+        color: white;
+        font-size: 4rem;
+        margin-top: 10%;
+        /*opacity: 0;*/
+        height: 10rem;
+    }
+    .section1 .date{
+        /*height: 12%;*/
+        width: 100%;
+        color:white;
+        font-size: 4.5rem;
+        /*margin-left: 5%*/
+        /*margin-top: 5%;*/
+        /*opacity: 0;*/
+
+    }
+    .section1 .fly{
+        color: white;
+        font-size: 3rem;
+        width:60%;
+        margin: 10% auto 0;
+        /*height: 6%;*/
+        /*margin-top: 10%;*/
+        /*opacity: 0;*/
+        /*margin-left: -100%;*/
+
+    }
+    .section1 .ready{
+        color: white;
+        font-size: 3.5rem;
+        /*opacity: 0;*/
+        margin: 20% auto 0;
+        width: 55%;
+    }
+    .advantage{
+        margin-left: 7%;
+        font-size: 1.8rem;
+        /*margin-top: 2%;*/
+    }
+    .advantage li{
+        margin-top: 10%;
+        float: left;
+        margin-left: 5%;
+        width: 45%;
+    }
+}
+@media (min-width: 980px) {
+    .section2{
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section2 h3{
+        font-size:2.5rem ;
+        font-weight: 600;
+    }
+    .section2 .col-md-9{
+        margin-left: 12.5%;
+    }
+    .pic{
+        width: 12%;
+        height: 12%;
+        float: left;
+        margin-left: 5%;
+    }
+    .javaCon{
+        height: 30rem;
+    }
+    .slideCon p{
+        line-height: 3rem;
+        margin-left:5rem;
+        margin-right: 5rem;
+    }
+    .col-md-9 article p{
+        line-height: 3rem;
+    }
+    .col-md-9 h2{
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+
+        /*对优秀成员进行样式修饰*/
+    .section4{
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section4 h3{
+        color: white;
+        font-size: 3rem;
+    }
+    .section4 .col-md-9{
+        margin-left: 12.5%;
+        margin-top: 10%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section4 .peoPic{
+        /*width: 18%;*/
+        /*height: 18%;*/
+        /*margin-left: 100px;*/
+    }
+    .section4 .peoPic img{
+        width: 45%;
+        height: 45%;
+        display: block;
+        margin: 0 auto 0;
+    }
+    .section4 .people{
+        width: 30%;
+        float: left;
+        margin-left: 3.3333%;
+        text-align: center;
+    }
+    .section4 h4{
+        font-size: 2.7rem;
+        font-weight: 700;
+        margin-top: 10%;
+    }
+    .section4 span{
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+    .section4 p{
+        font-size:1.6rem ;
+        margin-top: 5%;
+    }
+    /*对优秀作品进行样式修饰*/
+    .section3{
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section3 h3{
+        font-size:3rem ;
+        clear: both;
+    }
+    .section3 .col-md-9{
+        margin-left: 12.5%;
+        margin-top: 2%;
+    }
+    .section3 .col-md-9 .slide img{
+        width: 70%;
+        height: 70%;
+    }
+    .moreBtn{
+        display: none;
+    }
+
+
+    .section3 .moreCon{
+        background-color: white;
+        position: fixed;
+        top: 30%;
+        /*left: 12.5%;*/
+        z-index: 3;
+        height: 40%;
+    }
+    .section3 .closePic{
+        display: inline;
+        margin-left: 96%;
+        cursor: pointer;
+    }
+    .more span{
+        color: white;
+        margin-left: 90%;
+        cursor: pointer;
+    }
+    .more span:hover{
+        color: red;
+    }
+    /*对我们进行样式修饰*/
+
+    .section5{
+        width: 100%;
+        height: 100%;
+        background: url("../images/bg.png");
+        background-size: 100% 100%;
+    }
+    .section5 h3{
+        font-size:3rem ;
+    }
+    .section5 .col-lg-9{
+        margin-left: 12.5%;
+        margin-top: 5%;
+    }
+    .section5 .col-lg-9 .slide img{
+        width: 70%;
+        display: block;
+        margin: 0 auto 0;
+    }
+    .section6 .col-md-9{
+        background: url("../images/bg.png");
+        margin-left: 12.5%;
+        height: 100%;
+    }
+    .section6 .col-md-9 p{
+        color: white;
+    }
+    .section6 .col-md-9 .firstLine{
+        font-size:4rem;
+        margin-top: 3%;
+        opacity: 0;
+        text-align: center;
+
+    }
+    .section6 .col-md-9 .secondLine{
+        font-size:4rem;
+        margin-top: 14%;
+        opacity: 0;
+    }
+    .section6 .col-md-9 .thirdLine{
+        font-size:4.5rem;
+        margin-top: 15%;
+        text-align: center;
+        opacity: 0;
+
+    }
+    .ewm{
+        width: 30%;
+        height: 50%;
+        margin: 5% auto 0;
+    }
+    .ewmPic{
+        width: 100%;
+        height: 100%;
+    }
+    .apply{
+        font-size: 2rem;
+        margin-top: 10%;
+    }
+    .joinBtn{
+        width: 35%;
+        height: 10%;
+        margin: 0 auto 0;
+    }
+    .joinBtn button{
+        width: 100%;
+        height: 60%;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 30%;
+    }
+    /*第一页样式*/
+    .section1 .col-md-9{
+        background: url("../images/bg.png");
+        margin-left: 12.5%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .section1 .logo{
+        width: 100%;
+        color: white;
+        font-size: 4rem;
+        margin-top: 5%;
+        /*opacity: 0;*/
+        height: 10rem;
+    }
+    .section1 .date{
+        /*height: 12%;*/
+        width: 100%;
+        color:white;
+        font-size: 5rem;
+        /*margin-left: 5%*/
+        /*margin-top: 5%;*/
+        /*opacity: 0;*/
+
+    }
+    .section1 .fly{
+        color: white;
+        font-size: 3.5rem;
+        width:60%;
+        margin: 10% auto 0;
+        /*height: 6%;*/
+        /*opacity: 0;*/
+        /*margin-left: -100%;*/
+
+    }
+    .section1 .ready{
+        color: white;
+        font-size: 4rem;
+        /*opacity: 0;*/
+        margin: 10% auto 0;
+        width: 55%;
+    }
+    .advantage{
+        margin-left: 10%;
+        font-size: 1.8rem;
+    }
+    .advantage li{
+        margin-top: 5%;
+        float: left;
+        margin-left: 15%;
+        width: 35%;
+    }
+}
